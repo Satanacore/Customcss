@@ -1,0 +1,41 @@
+element.style {
+}
+body {
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+Inherited from html.no-js.isIframe.no-touch.theme--night.isAtBottom
+html {
+    font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Helvetica, sans-serif;
+    line-height: 1.25;
+    background-color: #f2f2f2;
+    font-size: 14px;
+	font-color: orange;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::scrollbar element
+.theme--night::-webkit-scrollbar, .theme--night ::-webkit-scrollbar {
+    background-color: #1a1c1e;
+}
+Pseudo ::scrollbar-thumb element
+.theme--night::-webkit-scrollbar-thumb, .theme--night ::-webkit-scrollbar-thumb {
+    background-color: #31353a;
+}
+Pseudo ::selection element
+::selection {
+    background: #00aaff;
+    color: #fff;
+}
